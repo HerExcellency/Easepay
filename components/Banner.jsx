@@ -14,7 +14,8 @@ const Banner = () => {
             src={Lightbox} 
             width={1000}
             height={800}
-            alt="placeholder light" />
+            alt="placeholder light" 
+            layout="responsive"/>
         </div>
     )
 }

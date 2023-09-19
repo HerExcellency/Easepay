@@ -5,7 +5,6 @@ import logo from '../public/logo.png'
 
 const Header = () => {
     return (
-        <Head>
             <div className={styles.navbar}>
                 <div className={styles.leftside}>
                     <Image src={logo} alt="easepay logo" />
@@ -22,7 +21,6 @@ const Header = () => {
                     <button className={styles.button}>Contact Us</button>
                 </div>
             </div>
-        </Head>
     )
 }
 export default Header;
